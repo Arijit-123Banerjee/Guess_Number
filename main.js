@@ -1,4 +1,7 @@
 "use strict";
+window.onload = function () {
+  document.getElementById("autoplay").play();
+};
 // Generating Random Number-----------------------------------------------
 let Random = Math.trunc(Math.random() * 20) + 1;
 let scorecount = 20;
